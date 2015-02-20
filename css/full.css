@@ -1,0 +1,108 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: rgba(255,0,0,0.0);
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('http://fukumotoaustin.com/images/bg_wd.jpg') no-repeat center center fixed;
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media (min-height: 100px){
+	.logo {
+		background: url("http://fukumotoaustin.com/images/fukumoto_onWood.png") no-repeat center center fixed;
+		background-size: contain;
+		height: 1000px;
+		background-position: 10px 100px;
+	}
+}
+
+
+.container{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*--- Top Navigation ---*/
+.navbar .brand{
+	text-shadow:none;
+	-webkit-text-shadow:none;
+	-moz-text-shadow:none;
+	color:#000;
+	font-size: 38px;
+	line-height: 42px;
+	text-shadow: 1px 1px 1px #000000;
+        filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+.navbar-inner{
+	background:none;
+	filter:none;
+	border:none;
+	box-shadow: none;
+	
+	padding:20px 0px 0px 0px;
+}
+.navbar-inverse {
+  background-color: #000;
+  border-color: #080808;
+}
+
+.navbar .nav{
+	margin-top: 10px;
+}
+
+.navbar .nav>li>a{
+	text-shadow:none;
+	-webkit-text-shadow:none;
+	-moz-text-shadow:none;
+	color:#990000;
+	text-transform: uppercase;
+	font-size:25px;
+	padding:2px 1px;
+	font-family: "OpenSansBold";
+
+	text-shadow: 1px 1px 1px #000000;
+        filter: dropshadow(color=#000000, offx=1, offy=1);
+
+    transition: all 400ms;
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus, .navbar .nav>li>a:hover{
+	background:none;
+	filter:none;
+	border:none;
+	box-shadow: none;
+	color:#ffffff;
+	background-color: #0c83ab;
+	border-bottom: 2px solid #a91e35;
+	transition: all 800ms4
+}
+
+.navbar .nav>li {
+	margin-left:20px;
+}
+
+/*--- hover actions on navbar links ---*/
+input, button, select, textarea {
+	font-family: "OpenSansRegular";	font-family: 14px; line-height: 18px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "NoticiaTextRegular"; text-transform: uppercase; font-weight: normal;
+	text-shadow: 1px 1px 1px #000000;
+        filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+
